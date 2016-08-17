@@ -243,13 +243,16 @@
                 "MYSQL_ROOT_PASSWORD"
               ]
             },
-            "wordpress": {
-              "image": "wordpress",
+            "sapho": {
+              "image": "sapho/ops-docker-tomcat",
               "ports": [
-                "80:80"
+                "8080:80"
               ],
               "links": [
                 "db:mysql"
+              ],
+              "environment": [
+                "SAPHO_DB_USERNAME": "root"
               ]
             }
           }
