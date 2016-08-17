@@ -3,19 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "unqiueStorageAccount"
+      "value": "SaphoStorageAccount"
     },
     "mysqlPassword": {
       "value": "password"
     },
     "adminUsername": {
-      "value": "userName"
+      "value": "rooot"
     },
     "adminPassword": {
       "value": "password"
     },
     "dnsNameForPublicIP": {
-      "value": "uniqueDNS"
+      "value": "sapho"
     }
   }
 }
