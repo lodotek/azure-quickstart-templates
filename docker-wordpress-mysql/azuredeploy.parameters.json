@@ -4,18 +4,24 @@
   "parameters": {
     "newStorageAccountName": {
       "value": "unqiueStorageAccount",
-      "description": "New storage account name"
+      "metadata": {
+       "description": "New storage account name" 
+      }
     },
     "mysqlPassword": {
       "value": "password"
     },
     "adminUsername": {
       "value": "userName"
+      "metadata": {
       "description": "SSH Username"
+      }
     },
     "adminPassword": {
       "value": "password"
+      "metadata": {
       "description": "SSH Password"
+      }
     },
     "dnsNameForPublicIP": {
       "value": "uniqueDNS"
