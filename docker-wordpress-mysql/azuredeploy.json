@@ -241,10 +241,7 @@
               ],
               "environment": [
                 "MYSQL_ROOT_PASSWORD"
-              ],  
-              "environment": [
-                "SAPHO_DB_USER" : "root"
-              ],
+              ]
             },
             "sapho": {
               "image": "sapho/ops-docker-tomcat",
