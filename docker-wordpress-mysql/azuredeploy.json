@@ -251,9 +251,9 @@
               "links": [
                 "db:mysql"
               ],
-              "environment": {
+              "environment": [
                 "SAPHO_DB_USERNAME": "root"
-              }
+              ]
             }
           }
         }
