@@ -3,16 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "unqiueStorageAccount"
+      "value": "unqiueStorageAccount",
+      "description": "New storage account name"
     },
     "mysqlPassword": {
       "value": "password"
     },
     "adminUsername": {
       "value": "userName"
+      "description": "SSH Username"
     },
     "adminPassword": {
       "value": "password"
+      "description": "SSH Password"
     },
     "dnsNameForPublicIP": {
       "value": "uniqueDNS"
