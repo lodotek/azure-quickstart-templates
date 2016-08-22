@@ -12,13 +12,13 @@
       "value": "password"
     },
     "adminUsername": {
-      "value": "userName"
+      "value": "userName",
       "metadata": {
       "description": "SSH Username"
       }
     },
     "adminPassword": {
-      "value": "password"
+      "value": "password",
       "metadata": {
       "description": "SSH Password"
       }
