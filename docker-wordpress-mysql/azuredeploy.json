@@ -17,13 +17,13 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "SSH Username for the Virtual Machine."
+        "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "SSH Password for the Virtual Machine."
+        "description": "Password for the Virtual Machine."
       }
     },
     "dnsNameForPublicIP": {
@@ -250,6 +250,9 @@
               ],
               "links": [
                 "db:mysql"
+              ],
+              "environment": [
+                "SAPHO_DB_USERNAME": "root"
               ]
             }
           }
