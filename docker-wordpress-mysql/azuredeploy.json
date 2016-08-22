@@ -240,10 +240,11 @@
                 "/var/lib/mysql:/var/lib/mysql"
               ],
               "environment": [
-                "MYSQL_ROOT_PASSWORD",
-                "SAPHO_DB_USER": "root",
-                "SAPHO_SB_NAME": "sapho"
-              ]
+                "MYSQL_ROOT_PASSWORD"
+            ],  
+              "environment": [
+                "SAPHO_DB_USER"
+              ],
             },
             "sapho": {
               "image": "sapho/ops-docker-tomcat",
