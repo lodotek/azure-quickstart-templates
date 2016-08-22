@@ -252,7 +252,7 @@
                 "db:mysql"
               ],
               "environment": [
-                "SAPHO_DB_USERNAME": "root"
+                "SAPHO_DB_USERNAME"
               ]
             }
           }
