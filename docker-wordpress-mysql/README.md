@@ -8,6 +8,9 @@
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
+<a href="https://portal.azure.com/#blade/Microsoft_Azure_Compute/CreateMultiVmWizardBlade/internal_bladeCallId/anything/internal_bladeCallerParams/{"initialData":{},"providerConfig":{"createUiDefinition":"URL_ENCODED_LINK TO_createUiDefinition.json"}}">[Preview createUiDefinition.json]</a>
+
+
 This template allows you to deploy an Ubuntu Server 15.04 VM with Docker (using the [Docker Extension][ext])
 and starts a Tomcat container with Sapho listening an port 80 which uses MySQL database running
 in a separate but linked Docker container, which are created using [Docker Compose][compose]
